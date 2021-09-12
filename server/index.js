@@ -45,7 +45,7 @@ app.get('/api/posts/:id',(req, res) => {
 app.post('/api/add-new',(req, res) => {
 
     const title = req.body.title;
-    const text = req.body.text;
+    const text = req.body.post;
     const author = req.body.author;
     const date = new Date();
 

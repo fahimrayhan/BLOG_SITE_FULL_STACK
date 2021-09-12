@@ -1,0 +1,27 @@
+.nav{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.nav-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    align-self: center;
+}
+
+
+.nav-links ul{
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li{
+    margin: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+}

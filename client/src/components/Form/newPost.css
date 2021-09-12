@@ -1,0 +1,39 @@
+
+.postForm{
+    display: flex;
+    justify-content:center;
+    background-color: #c0c0c0;
+    padding: 10px;
+}
+
+.form{
+    display: grid;
+}
+
+.form input[type="text"]{
+   height: 30px;
+   width: 400px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.form textarea{
+    width: 400px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.form select{
+    height:30px;
+    margin-bottom: 10px;
+}
+
+.button{
+    display: grid;
+    justify-content: center;
+}
+
+.button button {
+    width: 100px;
+    height: 40px;
+}
