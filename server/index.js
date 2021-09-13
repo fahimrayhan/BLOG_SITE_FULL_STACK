@@ -74,8 +74,9 @@ app.delete("/api/delete/:id",(req,res)=>{
 
 // Likes Post
 
-app.put("/api/likes/",(req,res)=>{
-    db.query("UPDATE `post_list` SET likes= likes+1 WHERE id = ?",id, (err,result)=>{
+app.put("/api/likes/:id",(req,res)=>{
+    const id = req.params.id;
+    db.query("UPDATE `post_list` SET likes = likes+1 WHERE id = ?",id, (err,result)=>{
         if (err) {
             console.log(err)
         }
