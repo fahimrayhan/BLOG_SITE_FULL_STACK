@@ -14,9 +14,9 @@ export default function App() {
           <Route path="/" exact component={Home} />
           <Route path="/add-new" exact component={CreatePost} />
           <Route path="/about" exact component={About} />
-          {/* <Route path="/post/:id" exact>
-            <Post props={} />
-          </Route> */}
+          <Route path="/posts/:id" exact>
+            <Post/>
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
