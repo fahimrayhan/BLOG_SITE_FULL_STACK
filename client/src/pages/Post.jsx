@@ -33,7 +33,7 @@ export default function Post() {
         <div>
             <Nav/>
             <h1>Hello</h1>
-            <div className="PostCard">
+            <div className="PostCard2">
                 <h1>{post.title}</h1>
                 <div>{post.post}</div>
                 <p>{post.author}</p>
